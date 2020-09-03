@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <locators>
+    <xpath page="Home" name="ComboTextBox">//input[contains(@type,'search')]</xpath>
+    <xpath page="Home" name="SearchButton">//button[@type='button' and @aria-label='Google Search']</xpath>
+    <xpath page="Home" name="GTrayHeader">//g-tray-header[contains(@role,'heading')]/div/div</xpath>
+    <xpath page="Home" name="AMPLogo">//span[contains(@aria-label,'AMP')]</xpath>
+    <xpath page="Home" name="AMPUris">//span[contains(@aria-label,'AMP')]//ancestor::a[contains(@data-amp,'scoopwhoop')]</xpath>
+    <xpath page="Home" name="AMPHeadings">//span[contains(@aria-label,'AMP')]//ancestor::a[contains(@data-amp,'scoopwhoop')]//div[@role='heading']</xpath>
+  </locators>
+  <!-- -->
+  <!--prerequisite System is logged in VPN -->
+  <config key="GoogleSearch" value="https://www.google.com/search" ></config>
+
+</root>
